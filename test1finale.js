@@ -24,10 +24,8 @@ async function test1b(){
     // Variables
  
     url ="https://paul.overnightbdc.com/";
-    username = "paul.rollins";
-    //Jrmrkr7799
-    //Jrmrkr0699@
-    password = "Jrmrkr7799";
+    username = "";
+    password = ";
     firstname = "joe";
     lastname = "fisher";
     worktitle = "QA Automation Engineer";
