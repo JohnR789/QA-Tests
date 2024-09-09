@@ -28,10 +28,10 @@ async function test2(){
     //lastname = "higgins"; or All
  
     url ="https://paul.overnightbdc.com/";
-    username = "paul.rollins";
-    //Jrmrkr7799
-    //Jrmrkr0699@
-    password = "Jrmrkr0699@";
+    username = "";
+    //
+    //
+    password = ";
     staff1 = "joe,fisher";
     staff2 = "boe,littleton";
     staff3 = "riley,higgins";
