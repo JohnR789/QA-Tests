@@ -27,10 +27,10 @@ async function test2b(){
     //lastname = "All";
     console.log (firstname, lastname)
     url ="https://paul.overnightbdc.com/";
-    username = "paul.rollins";
-    //Jrmrkr7799
-    //Jrmrkr0699@
-    password = "Jrmrkr0699@";
+    username = "";
+    //
+    //
+    password = "";
     staff1 = "joe,fisher,QA Automation Engineer,603-728-9098,joe.fisher@bettercarpeople.com,jfischer@bcp.com";
     staff2 = "boe,littleton,QA production manager,860-564-9075,boe.littleton@bettercarpeople.com,bittleton@bcp.com";
     staff3 = "riley,higgins,HR manager,640-845-2534,riley.higgins@bettercarpeople.com,rhiggin@bcp.com";
