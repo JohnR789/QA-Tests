@@ -1,17 +1,7 @@
 async function onbdcpodiumgenbcp(){
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-   //                                                                                             //
-   // Script Name: onbdcpodiumconvbcp.js                                                          //
-   // Written By:  Rollins 01/31/24                                                               //
-   // Script Purpose:  This script will search for BCP podium conv and perform general tests      //
-   // Input files: tests database, Shell Arg                                                      //
-   // Output file: podbcp general date/timestamp                                                  //
-   //                                                                                             //                
-   ///////////////////////////////////////////////////////////////////////////////////////////////
-  
+
       // init Variables and log libs
-      const dotenv = require("dotenv");
-      pathx = process.env.HOME + '/Projects/BCP_Tests/.env';
+      pathx = process.env.HOME + '/Projects/BCP_Tests/';
       dotenv.config({ path: pathx });
   
       const {By,Key,Builder, until} = require("selenium-webdriver");

@@ -1,16 +1,6 @@
 async function test4(){
-    ///////////////////////////////////////////////////////////////////////////////////////////////
-    // //
-    // Script Name: test2 //
-    // Written By: John Rollins 03/13/24 //
-    // Script Purpose: This script will add a staff member, search and then verify added staff. //
-    // Input files: //
-    // Output file: //
-    // //
-    ///////////////////////////////////////////////////////////////////////////////////////////////
     // Libraries
-    const dotenv = require("dotenv");
-    pathx = process.env.HOME + '/Projects/BCP_Tests/.env';
+    pathx = process.env.HOME + '/Projects/BCP_Tests/'
     dotenv.config({ path: pathx });
     const {By,Key,Builder, until} = require("selenium-webdriver");
     const { get } = require("selenium-webdriver/http");

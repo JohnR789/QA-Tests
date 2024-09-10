@@ -4,14 +4,12 @@ async function test5b(){
    // Script Name: test5b.js                                                                                                                                                  //
    // Written By: John Rollins 06/10/2024                                                                                                                                     //
    // Script Purpose: This script will generate a random number, determines parity in a loop up to 10, then defines total parity difference, then writes to an outputfile.    //
-   // Input files: tests database, Shell Arg                                                                                                                                  //
-   // Output file: podbcp general date/timestamp                                                                                                                              //
+   //                                                                                                                              //
    //                                                                                                                                                                         //                
    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
   
     // init Variables and log libs
-    const dotenv = require("dotenv");
-    pathx = process.env.HOME + '/Projects/BCP_Tests/.env';
+    pathx = process.env.HOME + '/Projects/BCP_Tests/';
     dotenv.config({ path: pathx });
     const {By,Key,Builder, until} = require("selenium-webdriver");
     const { get } = require("selenium-webdriver/http");

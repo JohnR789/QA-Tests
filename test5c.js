@@ -10,8 +10,7 @@ async function test5c(){
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       
     // init Variables and log libs
-    const dotenv = require("dotenv");
-    pathx = process.env.HOME + '/Projects/BCP_Tests/.env';
+    pathx = process.env.HOME + '/Projects/BCP_Tests/';
     dotenv.config({ path: pathx });
     const {By,Key,Builder, until} = require("selenium-webdriver");
     const { get } = require("selenium-webdriver/http");
